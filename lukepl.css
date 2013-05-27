@@ -1,0 +1,28 @@
+body {
+	background-color: #412;
+}
+
+.main-cont {
+	margin: 5% auto;
+	height: 55px;
+	background-color: #aa8
+}
+
+.span2 {
+	background-color: #2a2;
+	height: 55px;
+}
+
+.span3 {
+	background-color: #22a;
+	height: 55px;
+}
+
+.span4 {
+	background-color: #a22;
+	height: 55px;
+}
+
+.face {
+	border: solid #222 8px;
+}
