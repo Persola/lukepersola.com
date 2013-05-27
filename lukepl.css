@@ -3,26 +3,55 @@ body {
 }
 
 .main-cont {
-	margin: 5% auto;
 	height: 55px;
-	background-color: #aa8
+	background-color: #aa8;
+	color: #ddd;
 }
 
-.span2 {
-	background-color: #2a2;
-	height: 55px;
-}
-
-.span3 {
-	background-color: #22a;
-	height: 55px;
-}
-
-.span4 {
+.span5 {
 	background-color: #a22;
 	height: 55px;
 }
 
-.face {
-	border: solid #222 8px;
+.write-up {
+}
+
+.top{
+	height: 80px;
+	margin-top: 40px;
+}
+
+.big {
+	text-align: center;
+	font-size: 80;
+}
+
+.medium {
+	height: 80px;
+	text-align: center;
+	font-size: 40;
+}
+
+.small {
+	font-size: 20;
+}
+
+.button {
+	position: relative;
+	height: 50px;
+	font-size: 40px;
+	text-align: center;
+	vertical-align: center;
+	color: #aa8;
+	background-color: #745;
+}
+
+.button:hover {
+	background-color: #a78;
+}
+
+.button-text {
+	position: absolute;
+	top: 50%;
+	margin-top: 0px;
 }
