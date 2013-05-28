@@ -1,57 +1,75 @@
 body {
 	background-color: #412;
+	font-family: Geneva, Tahoma, Verdana, sans-serif;
+}
+
+body a {
+	color: #f95;
+}
+
+body a:hover {
+	text-decoration: none;
+	color: #fb4;
 }
 
 .main-cont {
-	height: 55px;
-	background-color: #aa8;
-	color: #ddd;
+	color: #cc9;
 }
 
-.span5 {
-	background-color: #a22;
-	height: 55px;
+.face {
+	margin-bottom: 50px;
 }
 
 .write-up {
+	margin-left: 40px;
 }
 
-.top{
+.name{
 	height: 80px;
-	margin-top: 40px;
-}
-
-.big {
+	margin-top: 50px;
 	text-align: center;
-	font-size: 80;
+	vertical-align: bottom;
+	font-size: 82;
 }
 
-.medium {
-	height: 80px;
-	text-align: center;
-	font-size: 40;
+.title {
+	height: 82px;
+	margin: 48px 0px 0px 50px;
+	font-size: 48;
 }
 
-.small {
+.subtitle {
+	margin: 15px 0px;
 	font-size: 20;
 }
 
 .button {
-	position: relative;
-	height: 50px;
+	height: 60px;
+	margin: 50px;
 	font-size: 40px;
-	text-align: center;
-	vertical-align: center;
-	color: #aa8;
-	background-color: #745;
+	background-color: #280810;
 }
 
 .button:hover {
-	background-color: #a78;
+	color: #fb4;
+	background-color: #421;
 }
 
 .button-text {
-	position: absolute;
-	top: 50%;
+	position: relative;
+	text-align: center;
+	top: 20px;
 	margin-top: 0px;
+}
+
+.contact-info {
+	height: 60px;
+	font-size: 40px;
+	text-align: center;
+}
+
+.body {
+	width: 480px;
+	margin-left: 50px;
+	font-size: 20;
 }
