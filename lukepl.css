@@ -1,5 +1,5 @@
 body {
-	background-color: #381828;
+	background-color: #301b28;
 	font-family: Geneva, Tahoma, Verdana, sans-serif;
 }
 
@@ -22,6 +22,7 @@ body a:hover {
 
 .write-up {
 	margin-left: 40px;
+	line-height: 24px;
 }
 
 .name{
@@ -40,14 +41,13 @@ body a:hover {
 }
 
 .title {
-	height: 82px;
-	margin: 36px 0px 0px 50px;
-	font-size: 48;
+	margin: 30px 0px 0px 50px;
+	font-size: 40;
 }
 
 .subtitle {
-	margin: 15px 0px;
-	font-size: 20;
+	margin: 8 0 0 50;
+	font-size: 18;
 }
 
 .button {
@@ -82,6 +82,6 @@ body a:hover {
 
 .text-body {
 	width: 450px;
-	margin-left: 50px;
-	font-size: 20;
+	margin: 10 0 0 50;
+	font-size: 18;
 }
