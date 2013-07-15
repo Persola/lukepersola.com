@@ -17,18 +17,18 @@ body a:hover {
 }
 
 .face {
-	margin-bottom: 50px;
+	margin-bottom: 50;
 }
 
-.write-up {
-	margin-left: 40px;
+.right-col {
+	margin-left: 40;
 	line-height: 24px;
 }
 
 .name{
-	height: 80px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	height: 80;
+	margin-top: 10;
+	margin-bottom: 18;
 	text-align: center;
 	vertical-align: bottom;
 	font-size: 75;
@@ -41,19 +41,21 @@ body a:hover {
 }
 
 .title {
-	margin: 30px 0px 0px 50px;
+	margin: 30 0 0 50;
 	font-size: 40;
+	line-height: 40px;
 }
 
 .subtitle {
-	margin: 8 0 0 50;
+	margin: 0 0 0 50;
 	font-size: 18;
 }
 
 .button {
-	height: 60px;
-	margin: 50px;
-	font-size: 40px;
+	height: 60;
+	margin: 30 100 30 60;
+	padding: 0 0 6 0;
+	font-size: 40;
 	background-color: #280810;
 }
 
@@ -65,13 +67,13 @@ body a:hover {
 .button-text {
 	position: relative;
 	text-align: center;
-	top: 20px;
-	margin-top: 0px 10px 0px 10px;
+	top: 20;
+	margin-top: 0 10 0 10;
 }
 
 .contact-info {
-	height: 60px;
-	font-size: 40px;
+	height: 60;
+	font-size: 40;
 	margin: 0 0 0 0;
 	text-align: center;
 }
@@ -81,7 +83,7 @@ body a:hover {
 }
 
 .text-body {
-	width: 450px;
+	width: 450;
 	margin: 10 0 0 50;
 	font-size: 18;
 }
