@@ -1,17 +1,17 @@
 body {
-	background-color: #301b28;
+	background-color: #ddd;
 	font-family: Geneva, Tahoma, Verdana, sans-serif;
-	color: #dd8;
+	color: #182020;
 	text-align: center;
 }
 
 body a {
 	text-decoration: none;
-	color: #f95;
+	color: #c32;
 }
 
 body a:hover {
-	color: #fb4;
+	color: #c51;
 }
 
 .left-column {
@@ -33,7 +33,7 @@ body a:hover {
 	.paragraph {
 		font-size: 20;
 		margin: 5 auto 15 auto;
-		max-width: 500;
+		max-width: 550;
 	}
 
 	.buttons {
@@ -43,18 +43,19 @@ body a:hover {
 		.button-link {
 			display: block;
 			height: 60;
-			width: 50%;
-			margin: auto;
+			width: 280;
+			margin: auto auto 8 auto;
 		}
 
 		.button {
 			font-size: 40;
-			background-color: #280810;
+			background-color: #b8b0a0;
+			padding: 2 0 4 0;
 		}
 
 		.button:hover {
-			color: #fb4;
-			background-color: #421;
+			color: #c51;
+			background-color: #ca8;
 		}
 
 		.button-text {
@@ -78,7 +79,7 @@ body a:hover {
 
 	.face {
 		display: block;
-		margin: auto;
+		margin: 10 auto auto auto;
 		width: 90%;
 		max-width: 500;
 	}
@@ -97,23 +98,41 @@ body a:hover {
 	.paragraph {
 		font-size: 16;
 		max-width: 500;
+		margin: 4 auto 20 auto;
 	}
 
 	.button-link {
-		width: 300;
+		width: 180;
+		margin: -8 auto;
 	}
 
 	.button {
 		font-size: 25;
+		padding: 4 0 6 0;
 	}
 
 	.contact-info {
 		font-size: 25;
+		margin: 0 0 -20 0;
 	}
 }
 
 /* shift right column beneath left column */
 @media (max-width: 749px) {
+
+	.left-column {
+		width: 100%;
+		float: none;
+	}
+
+	.right-column {
+		width: 100%;
+		float: none;
+	}
+}
+
+/* same for iPhone */
+@media (max-device-width: 480px) {
 
 	.left-column {
 		width: 100%;
@@ -140,17 +159,21 @@ body a:hover {
 	.paragraph {
 		font-size: 16;
 		max-width: 500;
+		margin: 4 auto 20 auto;
 	}
 
 	.button-link {
-		width: 300;
+		width: 180;
+		margin: -8 auto;
 	}
 
 	.button {
 		font-size: 25;
+		padding: 4 0 6 0;
 	}
 
 	.contact-info {
 		font-size: 25;
+		margin: 0 0 -20 0;
 	}
 }
