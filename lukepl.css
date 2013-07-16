@@ -1,89 +1,156 @@
 body {
 	background-color: #301b28;
 	font-family: Geneva, Tahoma, Verdana, sans-serif;
+	color: #dd8;
+	text-align: center;
 }
 
 body a {
+	text-decoration: none;
 	color: #f95;
 }
 
 body a:hover {
-	text-decoration: none;
 	color: #fb4;
 }
 
-.main-cont {
-	color: #cc9;
+.left-column {
+	float: left;
+	width: 50%;
 }
 
-.face {
-	margin-bottom: 50;
+	.name{
+		font-size: 70;
+		vertical-align: bottom;
+		margin-bottom: -5
+	}
+
+	.title {
+		font-size: 35;
+		line-height: 40px;
+	}
+
+	.paragraph {
+		font-size: 20;
+		margin: 5 auto 15 auto;
+		max-width: 500;
+	}
+
+	.buttons {
+		margin-bottom: 5;
+	}
+
+		.button-link {
+			display: block;
+			height: 60;
+			width: 50%;
+			margin: auto;
+		}
+
+		.button {
+			font-size: 40;
+			background-color: #280810;
+		}
+
+		.button:hover {
+			color: #fb4;
+			background-color: #421;
+		}
+
+		.button-text {
+			position: relative;
+			text-align: center;
+		}
+
+	.contact-info {
+		height: 60;
+		font-size: 40;
+		margin: 0 0 0 0;
+		text-align: center;
+	}
+
+.right-column {
+	float: left;
+	width: 40%;
+	max-width: 500;
+	margin: auto;
 }
 
-.right-col {
-	margin-left: 40;
-	line-height: 24px;
+	.face {
+		display: block;
+		margin: auto;
+		width: 90%;
+		max-width: 500;
+	}
+
+/* smaller fonts */
+@media (max-width: 1000px) and (min-width: 750px) {
+
+	.name{
+		font-size: 45;
+	}
+
+	.title {
+		font-size: 25;
+	}
+
+	.paragraph {
+		font-size: 16;
+		max-width: 500;
+	}
+
+	.button-link {
+		width: 300;
+	}
+
+	.button {
+		font-size: 25;
+	}
+
+	.contact-info {
+		font-size: 25;
+	}
 }
 
-.name{
-	height: 80;
-	margin-top: 10;
-	margin-bottom: 18;
-	text-align: center;
-	vertical-align: bottom;
-	font-size: 75;
-	line-height: 80px;
+/* shift right column beneath left column */
+@media (max-width: 749px) {
+
+	.left-column {
+		width: 100%;
+		float: none;
+	}
+
+	.right-column {
+		width: 100%;
+		float: none;
+	}
 }
 
-.face {
-	margin-left: auto;
-	margin-right: auto;
-}
+/* Identical to first media query except for max-width */
+@media (max-width: 499px) {
 
-.title {
-	margin: 30 0 0 50;
-	font-size: 40;
-	line-height: 40px;
-}
+	.name{
+		font-size: 45;
+	}
 
-.subtitle {
-	margin: 0 0 0 50;
-	font-size: 18;
-}
+	.title {
+		font-size: 25;
+	}
 
-.button {
-	height: 60;
-	margin: 30 100 30 60;
-	padding: 0 0 6 0;
-	font-size: 40;
-	background-color: #280810;
-}
+	.paragraph {
+		font-size: 16;
+		max-width: 500;
+	}
 
-.button:hover {
-	color: #fb4;
-	background-color: #421;
-}
+	.button-link {
+		width: 300;
+	}
 
-.button-text {
-	position: relative;
-	text-align: center;
-	top: 20;
-	margin-top: 0 10 0 10;
-}
+	.button {
+		font-size: 25;
+	}
 
-.contact-info {
-	height: 60;
-	font-size: 40;
-	margin: 0 0 0 0;
-	text-align: center;
-}
-
-.contact-top {
-	margin-top: 50;
-}
-
-.text-body {
-	width: 450;
-	margin: 10 0 0 50;
-	font-size: 18;
+	.contact-info {
+		font-size: 25;
+	}
 }
