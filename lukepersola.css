@@ -1,0 +1,183 @@
+body {
+	background-color: #ddd;
+	font-family: Geneva, Tahoma, Verdana, sans-serif;
+	color: #182020;
+	text-align: center;
+}
+
+body a {
+	text-decoration: none;
+	color: #c32;
+}
+
+body a:hover {
+	color: #c51;
+}
+
+.left-column {
+	float: left;
+	width: 50%;
+}
+
+	.name{
+		font-size: 70;
+		vertical-align: bottom;
+		margin: 16 0 -5 0;
+	}
+
+	.title {
+		font-size: 35;
+		line-height: 40px;
+	}
+
+	.paragraph {
+		font-size: 20;
+		margin: 5 auto 15 auto;
+		max-width: 550;
+	}
+
+	.buttons {
+		margin-bottom: 5;
+	}
+
+		.button-link {
+			display: block;
+			height: 60;
+			width: 280;
+			margin: auto auto 8 auto;
+		}
+
+		.button {
+			font-size: 40;
+			background-color: #b8b0a0;
+			padding: 2 0 4 0;
+		}
+
+		.button:hover {
+			color: #c51;
+			background-color: #ca8;
+		}
+
+		.button-text {
+			position: relative;
+			text-align: center;
+		}
+
+	.contact-info {
+		height: 60;
+		font-size: 40;
+		margin: 0 0 0 0;
+		text-align: center;
+	}
+
+		.obfuscator {
+			unicode-bidi: bidi-override;
+			direction: rtl;
+		}
+
+.right-column {
+	float: left;
+	width: 50%;
+	margin: auto;
+}
+
+	.face {
+		display: block;
+		margin: 20 auto auto auto;
+		width: 90%;
+		max-width: 500;
+	}
+
+/* smaller fonts */
+@media (max-width: 1000px) and (min-width: 750px) {
+
+	.name{
+		font-size: 45;
+	}
+
+	.title {
+		font-size: 25;
+	}
+
+	.paragraph {
+		font-size: 16;
+		max-width: 500;
+		margin: 4 auto 20 auto;
+	}
+
+	.button-link {
+		width: 180;
+		margin: -8 auto;
+	}
+
+	.button {
+		font-size: 25;
+		padding: 4 0 6 0;
+	}
+
+	.contact-info {
+		font-size: 25;
+		margin: 0 0 -20 0;
+	}
+}
+
+/* shift right column beneath left column */
+@media (max-width: 749px) {
+
+	.left-column {
+		width: 100%;
+		float: none;
+	}
+
+	.right-column {
+		width: 100%;
+		float: none;
+	}
+}
+
+/* same for iPhone */
+@media (max-device-width: 480px) {
+
+	.left-column {
+		width: 100%;
+		float: none;
+	}
+
+	.right-column {
+		width: 100%;
+		float: none;
+	}
+}
+
+/* Identical to first media query except for max-width */
+@media (max-width: 499px) {
+
+	.name{
+		font-size: 45;
+	}
+
+	.title {
+		font-size: 25;
+	}
+
+	.paragraph {
+		font-size: 16;
+		max-width: 500;
+		margin: 4 auto 20 auto;
+	}
+
+	.button-link {
+		width: 180;
+		margin: -8 auto;
+	}
+
+	.button {
+		font-size: 25;
+		padding: 4 0 6 0;
+	}
+
+	.contact-info {
+		font-size: 25;
+		margin: 0 0 -20 0;
+	}
+}
