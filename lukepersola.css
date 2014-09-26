@@ -20,37 +20,37 @@ body a:hover {
 }
 
 	.name{
-		font-size: 70;
+		font-size: 70px;
 		vertical-align: bottom;
-		margin: 16 0 -5 0;
+		margin: 16px 0px -5px 0px;
 	}
 
 	.title {
-		font-size: 35;
+		font-size: 35px;
 		line-height: 40px;
 	}
 
 	.paragraph {
-		font-size: 20;
-		margin: 5 auto 15 auto;
-		max-width: 550;
+		font-size: 20px;
+		margin: 5px auto 15px auto;
+		max-width: 550px;
 	}
 
 	.buttons {
-		margin-bottom: 5;
+		margin-bottom: 5px;
 	}
 
 		.button-link {
 			display: block;
-			height: 60;
-			width: 280;
-			margin: auto auto 8 auto;
+			height: 60px;
+			width: 280px;
+			margin: auto auto 8px auto;
 		}
 
 		.button {
-			font-size: 40;
+			font-size: 40px;
 			background-color: #b8b0a0;
-			padding: 2 0 4 0;
+			padding: 2px 0px 4px 0px;
 		}
 
 		.button:hover {
@@ -64,9 +64,9 @@ body a:hover {
 		}
 
 	.contact-info {
-		height: 60;
-		font-size: 40;
-		margin: 0 0 0 0;
+		height: 60px;
+		font-size: 40px;
+		margin: 0px;
 		text-align: center;
 	}
 
@@ -83,41 +83,41 @@ body a:hover {
 
 	.face {
 		display: block;
-		margin: 20 auto auto auto;
+		margin: 20px auto auto auto;
 		width: 90%;
-		max-width: 500;
+		max-width: 500px;
 	}
 
 /* smaller fonts */
 @media (max-width: 1000px) and (min-width: 750px) {
 
 	.name{
-		font-size: 45;
+		font-size: 45px;
 	}
 
 	.title {
-		font-size: 25;
+		font-size: 25px;
 	}
 
 	.paragraph {
-		font-size: 16;
-		max-width: 500;
-		margin: 4 auto 20 auto;
+		font-size: 16px;
+		max-width: 500px;
+		margin: 4px auto 20px auto;
 	}
 
 	.button-link {
-		width: 180;
-		margin: -8 auto;
+		width: 180px;
+		margin: -8px auto;
 	}
 
 	.button {
-		font-size: 25;
-		padding: 4 0 6 0;
+		font-size: 25px;
+		padding: 4px 0px 6px 0px;
 	}
 
 	.contact-info {
-		font-size: 25;
-		margin: 0 0 -20 0;
+		font-size: 25px;
+		margin: 0px 0px -20px 0px;
 	}
 }
 
@@ -153,31 +153,31 @@ body a:hover {
 @media (max-width: 499px) {
 
 	.name{
-		font-size: 45;
+		font-size: 45px;
 	}
 
 	.title {
-		font-size: 25;
+		font-size: 25px;
 	}
 
 	.paragraph {
-		font-size: 16;
-		max-width: 500;
-		margin: 4 auto 20 auto;
+		font-size: 16px;
+		max-width: 500px;
+		margin: 4px auto 20px auto;
 	}
 
 	.button-link {
-		width: 180;
-		margin: -8 auto;
+		width: 180px;
+		margin: -8px auto;
 	}
 
 	.button {
-		font-size: 25;
-		padding: 4 0 6 0;
+		font-size: 25px;
+		padding: 4px 0px 6px 0px;
 	}
 
 	.contact-info {
-		font-size: 25;
-		margin: 0 0 -20 0;
+		font-size: 25px;
+		margin: 0px 0px -20px 0px;
 	}
 }
