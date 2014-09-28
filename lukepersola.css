@@ -2,7 +2,6 @@ body {
 	background-color: #ddd;
 	font-family: Geneva, Tahoma, Verdana, sans-serif;
 	color: #201420;
-	/*color: #182020;*/
 	text-align: center;
 }
 ::-moz-selection {
@@ -43,7 +42,7 @@ body a:hover::selection {
 	.name{
 		font-size: 70px;
 		vertical-align: bottom;
-		margin: 16px 0px -5px 0px;
+		margin: 20px 0px -5px 0px;
 	}
 
 	.title {
@@ -109,6 +108,14 @@ body a:hover::selection {
 		width: 90%;
 		max-width: 500px;
 	}
+
+/* balance top margin with sides */
+@media (min-width: 1125px) {
+	body {
+		margin: -150px 0px 0px 0px;
+		padding: 15% 0% 0% 0%;
+	}
+}
 
 /* smaller fonts */
 @media (max-width: 1000px) and (min-width: 750px) {
