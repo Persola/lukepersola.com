@@ -1,17 +1,38 @@
 body {
 	background-color: #ddd;
 	font-family: Geneva, Tahoma, Verdana, sans-serif;
-	color: #182020;
+	color: #201420;
+	/*color: #182020;*/
 	text-align: center;
+}
+::-moz-selection {
+	color: #ddd;
+	background: #000;
+}
+::selection {
+	color: #ddd;
+	background: #000;
 }
 
 body a {
 	text-decoration: none;
-	color: #c32;
+	color: #478;
+}
+body a::-moz-selection {
+	color: #7bc;
+}
+body a::selection {
+	color: #7bc;
 }
 
 body a:hover {
-	color: #c51;
+	color: #4a8;
+}
+body a:hover::-moz-selection {
+	color: #6db;
+}
+body a:hover::selection {
+	color: #6db;
 }
 
 .left-column {
@@ -49,13 +70,14 @@ body a:hover {
 
 		.button {
 			font-size: 40px;
-			background-color: #b8b0a0;
-			padding: 2px 0px 4px 0px;
+			background-color: #bcc;
+			padding: 2px 0px 5px 0px;
+			border: 2px solid #000;
 		}
 
 		.button:hover {
-			color: #c51;
-			background-color: #ca8;
+			color: #4a8;
+			background-color: #cdd;
 		}
 
 		.button-text {
