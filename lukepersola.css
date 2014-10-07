@@ -43,7 +43,7 @@ body a:hover::selection {
   .name{
     font-size: 80px;
     vertical-align: bottom;
-    margin-top: 20px;
+    margin-top: 5%;
   }
 
   .title {
@@ -110,7 +110,7 @@ body a:hover::selection {
 }
 
   .face {
-    margin: 3% auto 10% auto;
+    margin: 5% auto 10% auto;
     width: 90%;
     max-width: 500px;
   }
@@ -132,7 +132,7 @@ body a:hover::selection {
 
   .title {
     margin-top: 10px;
-    font-size: 25px;
+    font-size: 24px;
   }
 
   .paragraph {
@@ -143,21 +143,26 @@ body a:hover::selection {
   }
 
   .button-link {
+    height: 40px;
+    width: 180px;
     margin-top: 12px;
   }
 
   .button {
+    width: 180px;
     font-size: 25px;
+  }
+
+  .button-text {
+    height: 40px;
+    line-height: 40px;
+    font-size: 24px;
   }
 
   .contact-info {
     margin-top: 25px;
-    font-size: 25px;
+    font-size: 24px;
   }
-
-    .obfuscator {
-      margin-top: 8px;
-    }
 }
 
 /* shift right column beneath left column */
@@ -198,19 +203,36 @@ body a:hover::selection {
   }
 
   .title {
-    font-size: 25px;
+    margin-top: 10px;
+    font-size: 24px;
   }
 
   .paragraph {
+    margin-top: 15px;
     font-size: 16px;
     max-width: 500px;
+    line-height: 20px;
+  }
+
+  .button-link {
+    height: 40px;
+    width: 180px;
+    margin-top: 12px;
   }
 
   .button {
+    width: 180px;
     font-size: 25px;
   }
 
+  .button-text {
+    height: 40px;
+    line-height: 40px;
+    font-size: 24px;
+  }
+
   .contact-info {
-    font-size: 25px;
+    margin-top: 25px;
+    font-size: 24px;
   }
 }
