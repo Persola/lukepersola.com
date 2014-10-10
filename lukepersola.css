@@ -103,6 +103,12 @@ body a:hover::selection {
       direction: rtl;
     }
 
+    .caveat {
+      font-size: 20px;
+      line-height: 28px;
+      color: #999;
+    }
+
 .right-column {
   float: left;
   width: 47%;
