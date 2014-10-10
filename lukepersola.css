@@ -40,74 +40,74 @@ body a:hover::selection {
   margin: 0% 0% 0% 3%;
 }
 
-  .name{
-    font-size: 80px;
-    vertical-align: bottom;
-    margin-top: 2%;
-  }
+.name{
+  font-size: 80px;
+  vertical-align: bottom;
+  margin-top: 2%;
+}
 
-  .title {
-    font-size: 40px;
-    line-height: 40px;
-    margin-top: 8px;
-  }
+.title {
+  font-size: 40px;
+  line-height: 40px;
+  margin-top: 8px;
+}
 
-  .paragraph {
-    font-size: 20px;
-    line-height: 26px;
-    margin: 50px auto 0px auto;
-    max-width: 480px;
-  }
+.paragraph {
+  font-size: 20px;
+  line-height: 26px;
+  margin: 50px auto 0px auto;
+  max-width: 480px;
+}
 
-  .buttons {
-    margin-top: 50px;
-  }
+.buttons {
+  margin-top: 50px;
+}
 
-    .button-link {
-      height: 60px;
-      width: 280px;
-      display: block;
-      margin: 20px auto 0px auto;
-    }
+.button-link {
+  height: 60px;
+  width: 280px;
+  display: block;
+  margin: 20px auto 0px auto;
+}
 
-    .button {
-      width: 280px;
-      background-color: #abb;
-      padding: 0px 0px 0px 0px;
-      border: 1px solid #dbdbdb;
-    }
+.button {
+  width: 280px;
+  background-color: #abb;
+  padding: 0px 0px 0px 0px;
+  border: 1px solid #dbdbdb;
+}
 
-    .button:hover {
-      color: #4a8;
-      background-color: #dbdbdb;
-      border: 1px solid #abb;
-    }
+.button:hover {
+  color: #4a8;
+  background-color: #dbdbdb;
+  border: 1px solid #abb;
+}
 
-    .button-text {
-      height: 60px;
-      position: relative;
-      text-align: center;
-      line-height: 62px;
-      font-size: 40px;
-    }
+.button-text {
+  height: 60px;
+  position: relative;
+  text-align: center;
+  line-height: 62px;
+  font-size: 40px;
+}
 
-  .contact-info {
-    font-size: 40px;
-    margin: 50px 0px 30px 0px;
-    text-align: center;
-  }
+.contact-info {
+  font-size: 40px;
+  margin: 50px 0px 30px 0px;
+  text-align: center;
+}
 
-    .obfuscator {
-      margin-top: 15px;
-      unicode-bidi: bidi-override;
-      direction: rtl;
-    }
+.obfuscator {
+  margin-top: 15px;
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
 
-    .caveat {
-      font-size: 20px;
-      line-height: 28px;
-      color: #999;
-    }
+.caveat {
+  font-size: 20px;
+  line-height: 28px;
+  color: #999;
+}
 
 .right-column {
   float: left;
@@ -115,11 +115,11 @@ body a:hover::selection {
   margin: 0% 3% 0% 0%;
 }
 
-  .face {
-    margin: 2% auto 10% auto;
-    width: 90%;
-    max-width: 500px;
-  }
+.face {
+  margin: 2% auto 10% auto;
+  width: 90%;
+  max-width: 500px;
+}
 
 /* balance top margin with sides */
 @media (min-width: 1125px) {
