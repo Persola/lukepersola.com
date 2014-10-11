@@ -37,13 +37,12 @@ body a:hover::selection {
 .left-column {
   float: left;
   width: 47%;
-  margin: 0% 0% 0% 3%;
+  margin-left: 3%;
 }
 
 .name{
   font-size: 80px;
   vertical-align: bottom;
-  margin-top: 2%;
 }
 
 .divider {
@@ -59,14 +58,14 @@ body a:hover::selection {
 .title {
   font-size: 44px;
   line-height: 44px;
-  margin-top: 8px;
+  margin-top: 7px;
   margin-left: 3px;
 }
 
 .paragraph {
   font-size: 20.5px;
   line-height: 26px;
-  margin: 48px auto 0px auto;
+  margin: 40px auto 0px auto;
   max-width: 490px;
 }
 
@@ -78,45 +77,44 @@ body a:hover::selection {
   height: 60px;
   width: 280px;
   display: block;
-  margin: 22px auto 0px auto;
+  margin: 20px auto 0px auto;
 }
 
 .button {
   width: 280px;
   background-color: #abb;
-  border: 3px solid #abb;
+  border: 1px solid #dbdbdb;
 }
 
 .button:hover {
   color: #4a8;
   background-color: #dbdbdb;
-  border: 3px solid #abb;
+  border: 1px solid #abb;
 }
 
 .button-text {
   position: relative;
   height: 60px;
-  margin: -4px 0px 2px 0px;
+  margin: -2px 0px 2px 0px;
   text-align: center;
-  line-height: 60px;
+  line-height: 62px;
   font-size: 44px;
 }
 
 .contact-info {
-  font-size: 44px;
+  font-size: 20.5px;
   margin: 50px 0px 30px 0px;
-  text-align: center;
 }
 
 .obfuscator {
-  margin-top: 10px;
+  font-weight: bold;
+  line-height: 28px;
   unicode-bidi: bidi-override;
   direction: rtl;
 }
 
 .caveat {
-  font-size: 20.5px;
-  line-height: 28px;
+  font-size: 11px;
   color: #999;
 }
 
@@ -127,7 +125,7 @@ body a:hover::selection {
 }
 
 .face {
-  margin: 2% auto 10% auto;
+  margin: 0% auto 10% auto;
   width: 90%;
   max-width: 500px;
 }
