@@ -36,13 +36,14 @@ body a:hover::selection {
 
 .left-column {
   float: left;
-  width: 47%;
-  margin-left: 3%;
+  width: 500px;
+  margin-top: 18px;
+  margin-left: calc((100% - 1000px) * 0.35);
+  margin-right: calc((100% - 1000px) * 0.15);
 }
 
 .name{
   font-size: 80px;
-  vertical-align: bottom;
 }
 
 .divider {
@@ -57,9 +58,7 @@ body a:hover::selection {
 
 .title {
   font-size: 44px;
-  line-height: 44px;
-  margin-top: 7px;
-  margin-left: 3px;
+  margin: 3px 0px 0px 3px;
 }
 
 .paragraph {
@@ -74,8 +73,8 @@ body a:hover::selection {
 }
 
 .button-link {
-  height: 60px;
-  width: 280px;
+  height: 62px;
+  width: 282px;
   display: block;
   margin: 20px auto 0px auto;
 }
@@ -95,103 +94,52 @@ body a:hover::selection {
 .button-text {
   position: relative;
   height: 60px;
-  margin: -2px 0px 2px 0px;
   text-align: center;
-  line-height: 62px;
+  line-height: 58px;
   font-size: 44px;
 }
 
 .contact-info {
+  font-weight: bold;
+  line-height: 28px;
   font-size: 20.5px;
   margin: 50px 0px 30px 0px;
 }
 
 .obfuscator {
-  font-weight: bold;
-  line-height: 28px;
   unicode-bidi: bidi-override;
   direction: rtl;
 }
 
 .caveat {
+  font-weight: normal;
+  line-height: 13px;
   font-size: 11px;
   color: #999;
 }
 
 .right-column {
   float: left;
-  width: 47%;
-  margin: 0% 3% 0% 0%;
+  margin-top: 20px;
+  margin-right: calc((100% - 1000px) * 0.35);
+  margin-left: calc((100% - 1000px) * 0.15);
 }
 
 .face {
-  margin: 0% auto 10% auto;
-  width: 90%;
-  max-width: 500px;
-}
-
-/* balance top margin with sides */
-@media (min-width: 1125px) {
-  body {
-    margin: -150px 0px 0px 0px;
-    padding: 15% 0% 0% 0%;
-  }
-}
-
-/* smaller fonts */
-@media (max-width: 1000px) and (min-width: 750px) {
-
-  .name{
-    font-size: 45px;
-  }
-
-  .title {
-    margin-top: 10px;
-    font-size: 24px;
-  }
-
-  .paragraph {
-    margin-top: 15px;
-    font-size: 16px;
-    max-width: 500px;
-    line-height: 20px;
-  }
-
-  .button-link {
-    height: 44px;
-    width: 180px;
-    margin-top: 12px;
-  }
-
-  .button {
-    width: 180px;
-    font-size: 25px;
-  }
-
-  .button-text {
-    height: 44px;
-    line-height: 44px;
-    font-size: 24px;
-  }
-
-  .contact-info {
-    margin-top: 25px;
-    font-size: 24px;
-  }
+  margin-top: calc((100% - 670) / 2);
 }
 
 /* shift right column beneath left column */
-@media (max-width: 749px) {
+@media (max-width: 1020px) {
 
   .left-column {
-    width: 100%;
     float: none;
+    margin: 20px auto 0px auto;
   }
 
   .right-column {
     float: none;
-    width: 100%;
-    margin: 0% 0% 0% 0%;
+    margin: 50px auto 50px auto;
   }
 }
 
@@ -199,55 +147,12 @@ body a:hover::selection {
 @media (max-device-width: 480px) {
 
   .left-column {
-    width: 100%;
     float: none;
+    margin: 20px auto 0px auto;
   }
 
   .right-column {
     float: none;
-    width: 100%;
-    margin: 0% 0% 0% 0%;
-  }
-}
-
-/* Identical to 'smaller fonts' query except for max-width */
-@media (max-width: 499px) {
-
-  .name{
-    font-size: 45px;
-  }
-
-  .title {
-    margin-top: 10px;
-    font-size: 24px;
-  }
-
-  .paragraph {
-    margin-top: 15px;
-    font-size: 16px;
-    max-width: 500px;
-    line-height: 20px;
-  }
-
-  .button-link {
-    height: 44px;
-    width: 180px;
-    margin-top: 12px;
-  }
-
-  .button {
-    width: 180px;
-    font-size: 25px;
-  }
-
-  .button-text {
-    height: 44px;
-    line-height: 44px;
-    font-size: 24px;
-  }
-
-  .contact-info {
-    margin-top: 25px;
-    font-size: 24px;
+    margin: 50px auto 50px auto;
   }
 }
