@@ -1,16 +1,16 @@
 body {
-  background-color: #dbdbdb;
+  background: #dbdbdb;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   color: #201420;
   text-align: center;
 }
 ::-moz-selection {
-  color: #ddd;
   background: #000;
+  color: #ddd;
 }
 ::selection {
-  color: #ddd;
   background: #000;
+  color: #ddd;
 }
 
 body a {
@@ -38,8 +38,8 @@ body a:hover::selection {
   float: left;
   width: 500px;
   margin-top: 18px;
-  margin-left: calc((100% - 1000px) * 0.35);
   margin-right: calc((100% - 1000px) * 0.15);
+  margin-left: calc((100% - 1000px) * 0.35);
 }
 
 .name{
@@ -53,19 +53,19 @@ body a:hover::selection {
   margin-right: calc((100% - 465px) / 2 - 1px);
   margin-bottom: 0px;
   margin-left: calc((100% - 465px) / 2 + 2px);
-  background-color: #000;
+  background: #000;
 }
 
 .title {
-  font-size: 44px;
   margin: 3px 0px 0px 3px;
+  font-size: 44px;
 }
 
 .paragraph {
+  max-width: 490px;
+  margin: 40px auto 0px auto;
   font-size: 20.5px;
   line-height: 26px;
-  margin: 40px auto 0px auto;
-  max-width: 490px;
 }
 
 .buttons {
@@ -73,37 +73,37 @@ body a:hover::selection {
 }
 
 .button-link {
+  display: block;
   height: 62px;
   width: 282px;
-  display: block;
   margin: 20px auto 0px auto;
 }
 
 .button {
   width: 280px;
-  background-color: #abb;
   border: 1px solid #dbdbdb;
+  background: #abb;
 }
 
 .button:hover {
-  color: #4a8;
-  background-color: #dbdbdb;
   border: 1px solid #abb;
+  background: #dbdbdb;
+  color: #4a8;
 }
 
 .button-text {
   position: relative;
   height: 60px;
   text-align: center;
-  line-height: 58px;
   font-size: 44px;
+  line-height: 58px;
 }
 
 .contact-info {
-  font-weight: bold;
-  line-height: 28px;
-  font-size: 20.5px;
   margin: 50px 0px 30px 0px;
+  font-size: 20.5px;
+  line-height: 28px;
+  font-weight: bold;
 }
 
 .obfuscator {
@@ -112,9 +112,9 @@ body a:hover::selection {
 }
 
 .caveat {
-  font-weight: normal;
-  line-height: 13px;
   font-size: 11px;
+  line-height: 13px;
+  font-weight: normal;
   color: #999;
 }
 
