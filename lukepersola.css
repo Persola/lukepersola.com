@@ -87,12 +87,12 @@ body a:hover::selection {
 
 .button {
   width: 280px;
-  border: 1px solid #dbdbdb;
+  border: 1px solid #abb;
   background: #abb;
 }
 
 .button:hover {
-  border: 1px solid #abb;
+  border: 1px solid #666;
   background: #dbdbdb;
   color: #4a8;
 }
@@ -120,7 +120,7 @@ body a:hover::selection {
   font-size: 11px;
   line-height: 13px;
   font-weight: normal;
-  color: #999;
+  color: #8a8a8a;
 }
 
 .right-column {
