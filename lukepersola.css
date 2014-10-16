@@ -78,16 +78,16 @@ body a:hover::selection {
   margin-top: 50px;
 }
 
-.button-link {
-  display: block;
-  height: 62px;
-  width: 282px;
-  margin: 16px auto 0px auto;
-}
-
 .button {
+  display: block;
+  position: relative;
+  height: 60px;
   width: 280px;
+  margin: 16px auto 0px auto;
   border: 1px solid #abb;
+  text-align: center;
+  font-size: 44px;
+  line-height: 62px;
   background: #abb;
 }
 
@@ -95,14 +95,6 @@ body a:hover::selection {
   border: 1px solid #666;
   background: #dbdbdb;
   color: #4a8;
-}
-
-.button-text {
-  position: relative;
-  height: 60px;
-  text-align: center;
-  font-size: 44px;
-  line-height: 62px;
 }
 
 .contact-info {
