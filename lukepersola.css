@@ -4,14 +4,10 @@
 }
 
 body {
-  background: #dbdbdb;
+  background: #e8e8e8;
   font-family: "RobotoRegular";
   color: #201420;
   text-align: center;
-}
-::-moz-selection {
-  background: #000;
-  color: #ddd;
 }
 ::selection {
   background: #000;
@@ -22,135 +18,112 @@ body a {
   text-decoration: none;
   color: #478;
 }
-body a::-moz-selection {
-  color: #7bc;
-}
 body a::selection {
   color: #7bc;
 }
 
 body a:hover {
-  color: #4a8;
-}
-body a:hover::-moz-selection {
-  color: #6db;
+  color: #3a8;
 }
 body a:hover::selection {
   color: #6db;
 }
 
-.left-column {
-  float: left;
-  width: 500px;
-  margin-top: 18px;
-  margin-right: calc((100% - 1000px) * 0.15);
-  margin-left: calc((100% - 1000px) * 0.35);
+.main {
+  margin: 48px;
 }
 
-.name{
-  font-size: 80px;
-}
-
-.divider {
-  height: 3px;
-  width: 450px;
-  margin-top: -10px;
-  margin-right: calc((100% - 450px) / 2 - 0px);
-  margin-bottom: 0px;
-  margin-left: calc((100% - 450px) / 2 + 1px);
-  background: #000;
+.name {
+  height: 82px;
+  max-width: 426px;
+  padding: 12px 0 0 0;
+  margin: 0 auto;
+  font-size: 60px;
+  font-weight: bold;
+  background: black;
+  color: #e8e8e8;
+  cursor: copy;
 }
 
 .title {
-  margin: 1px 0px 0px 0px;
-  font-size: 44px;
-  letter-spacing: -0.024em;
+  margin: 48px 0 16px 0;
 }
 
-.paragraph {
-  max-width: 490px;
-  margin: 40px auto 0px auto;
-  font-size: 20.5px;
-  line-height: 26px;
+.message {
+  margin: 16px 0 48px 0;
 }
 
-.buttons {
-  margin-top: 50px;
+.inquires {
+  display: inline;
+}
+
+.obfuscator {
+  display: inline;
+  unicode-bidi: bidi-override;
+  direction: rtl;
 }
 
 .button {
   display: block;
   position: relative;
   height: 60px;
-  width: 280px;
-  margin: 16px auto 0px auto;
-  border: 1px solid #abb;
+  width: 260px;
+  margin: 16px auto;
   text-align: center;
-  font-size: 44px;
+  font-size: 32px;
   line-height: 62px;
-  background: #abb;
+  background: #c0c0b8;
 }
 
 .button:hover {
-  border: 1px solid #666;
-  background: #dbdbdb;
-  color: #4a8;
-}
-
-.contact-info {
-  margin: 50px 0px 30px 0px;
-  font-size: 20.5px;
-  line-height: 28px;
-}
-
-.obfuscator {
-  unicode-bidi: bidi-override;
-  direction: rtl;
-}
-
-.caveat {
-  font-size: 11px;
-  line-height: 13px;
-  font-weight: normal;
-  color: #8a8a8a;
-}
-
-.right-column {
-  float: left;
-  margin-top: 20px;
-  margin-right: calc((100% - 1000px) * 0.35);
-  margin-left: calc((100% - 1000px) * 0.15);
-  margin-bottom: 50px;
+  background: #ccd;
+  color: #3a8;
 }
 
 .face {
-  margin-top: calc((100% - 670) / 2);
+  width: 100%;
+  max-width: 426px;
+  max-height: 100%;
+  margin: 32px auto 0 auto;
+  outline: 1px solid #aababa;
+  cursor: copy;
+  transition-property: filter;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
 }
 
-/* shift right column beneath left column */
-@media (max-width: 1020px) {
+.face:hover {
+  filter: sepia(16%) hue-rotate(100deg);
+}
 
-  .left-column {
-    float: none;
-    margin: 20px auto 0px auto;
+@media (max-width: 500px) {
+  .name {
+    font-size: 45px;
+    height: 61px;
+    max-width: 320px;
+    padding: 9px 0 0 0;
   }
 
-  .right-column {
-    float: none;
-    margin: 50px auto 50px auto;
+  .button {
+    height: 45px;
+    width: 195px;
+    font-size: 33px;
+    line-height: 46px;
   }
 }
 
-/* same for iPhone */
-@media (max-device-width: 480px) {
-
-  .left-column {
-    float: none;
-    margin: 20px auto 0px auto;
+@media (max-width: 380px) {
+  .name {
+    font-size: 30px;
+    height: 41px;
+    max-width: 213px;
+    padding: 6px 0 0 0;
   }
 
-  .right-column {
-    float: none;
-    margin: 50px auto 50px auto;
+  .button {
+    height: 30px;
+    width: 130px;
+    font-size: 22px;
+    line-height: 31px;
   }
 }
