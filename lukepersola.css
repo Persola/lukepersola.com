@@ -42,7 +42,7 @@ body a:hover::selection {
   font-weight: bold;
   background: black;
   color: #e8e8e8;
-  cursor: copy;
+  cursor: default;
 }
 
 .title {
@@ -50,7 +50,12 @@ body a:hover::selection {
 }
 
 .message {
-  margin: 16px 0 48px 0;
+  margin: 48px 0 48px 0;
+}
+
+.message div {
+  margin: 12px 0;
+  cursor: default;
 }
 
 .inquires {
@@ -66,12 +71,12 @@ body a:hover::selection {
 .button {
   display: block;
   position: relative;
-  height: 60px;
-  width: 260px;
+  height: 44px;
+  width: 150px;
   margin: 16px auto;
   text-align: center;
-  font-size: 32px;
-  line-height: 62px;
+  font-size: 24px;
+  line-height: 46px;
   background: #c0c0b8;
 }
 
@@ -84,35 +89,27 @@ body a:hover::selection {
   width: 100%;
   max-width: 426px;
   max-height: 100%;
-  margin: 32px auto 0 auto;
+  margin: 48px auto 0 auto;
   outline: 1px solid #aababa;
-  cursor: copy;
   transition-property: filter;
-  transition-duration: 200ms;
+  transition-duration: 140ms;
   transition-timing-function: ease-in-out;
 }
 
 .face:hover {
-  filter: sepia(16%) hue-rotate(100deg);
+  filter: sepia(16%) saturate(70%) hue-rotate(100deg);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 520px) {
   .name {
     font-size: 45px;
     height: 61px;
     max-width: 320px;
     padding: 9px 0 0 0;
   }
-
-  .button {
-    height: 45px;
-    width: 195px;
-    font-size: 33px;
-    line-height: 46px;
-  }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 410px) {
   .name {
     font-size: 30px;
     height: 41px;
