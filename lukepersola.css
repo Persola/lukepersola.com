@@ -1,12 +1,11 @@
 @font-face {
-  font-family: "RobotoRegular";
+  font-family: "Roboto";
   src: url("./Roboto-Regular.ttf");
 }
 
 body {
   text-align: center;
-  font-family: "RobotoRegular";
-  font-display: "fallback";
+  font-family: "Roboto", Arial;
   background: #e8e8e8;
   color: #201420;
 }
