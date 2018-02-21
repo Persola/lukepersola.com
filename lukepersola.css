@@ -4,10 +4,11 @@
 }
 
 body {
-  background: #e8e8e8;
-  font-family: "RobotoRegular";
-  color: #201420;
   text-align: center;
+  font-family: "RobotoRegular";
+  font-display: "fallback";
+  background: #e8e8e8;
+  color: #201420;
 }
 ::selection {
   background: #000;
@@ -16,7 +17,7 @@ body {
 
 body a {
   text-decoration: none;
-  color: #478;
+  color: #106878;
 }
 body a::selection {
   color: #7bc;
@@ -29,7 +30,7 @@ body a:hover::selection {
   color: #6db;
 }
 
-.main {
+main {
   margin: 48px;
 }
 
@@ -81,7 +82,7 @@ body a:hover::selection {
 }
 
 .button:hover {
-  background: #ccd;
+  background: #d0d0d0;
   color: #3a8;
 }
 
@@ -97,7 +98,7 @@ body a:hover::selection {
 }
 
 .face:hover {
-  filter: sepia(16%) saturate(70%) hue-rotate(100deg);
+  filter: sepia(16%) saturate(85%) hue-rotate(80deg);
 }
 
 @media (max-width: 520px) {
