@@ -50,12 +50,16 @@ main {
 }
 
 .message {
-  margin: 48px 0 48px 0;
+  margin: 48px 0 40px 0;
 }
 
 .message div {
   margin: 12px 0;
   cursor: default;
+}
+
+.resume-link {
+  font-weight: 700;
 }
 
 .inquires {
@@ -68,21 +72,21 @@ main {
   direction: rtl;
 }
 
-.button {
-  display: block;
-  position: relative;
-  height: 44px;
-  width: 150px;
-  margin: 16px auto;
-  text-align: center;
-  font-size: 24px;
-  line-height: 46px;
-  background: #c0c0b8;
+svg {
+  height: 60px;
+  width: 60px;
+  fill: #106878;
+  transition: 150ms;
+  transition-timing-function: ease-in-out;
 }
 
-.button:hover {
-  background: #d0d0d0;
-  color: #3a8;
+svg:hover {
+  fill: #3a8;
+}
+
+.svg-link-wrapper {
+  display: inline;
+  padding: 8px 28px;
 }
 
 .face {
