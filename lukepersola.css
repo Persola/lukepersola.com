@@ -4,8 +4,6 @@
 }
 
 body {
-  text-align: center;
-  font-family: "Roboto", Arial;
   background: #e8e8e8;
   color: #201420;
 }
@@ -30,15 +28,21 @@ body a:hover::selection {
 }
 
 main {
-  margin: 48px;
+  font-size: 18px;
+  font-family: "Roboto", Arial;
+  width: 320px;
+  margin: 48px auto;
+  transition: 150ms;
+  transition-timing-function: ease-in-out;
 }
 
 .name {
-  height: 82px;
-  max-width: 426px;
-  padding: 12px 0 0 0;
+  height: 61px;
+  max-width: 320px;
+  padding: 9px 0 0 0;
   margin: 0 auto;
-  font-size: 60px;
+  text-align: center;
+  font-size: 45px;
   font-weight: bold;
   background: black;
   color: #e8e8e8;
@@ -50,7 +54,7 @@ main {
 }
 
 .message {
-  margin: 48px 0 40px 0;
+  margin: 24px 0;
 }
 
 .message div {
@@ -59,7 +63,7 @@ main {
 }
 
 .resume-link {
-  font-weight: 700;
+  text-decoration: underline;
 }
 
 .inquires {
@@ -72,48 +76,47 @@ main {
   direction: rtl;
 }
 
+.svg-bar {
+  width: 366px;
+  margin: 24px 27px;
+}
+
+.svg-link-wrapper {
+  padding: 0 26px;
+  display: inline;
+}
+
 svg {
-  height: 60px;
-  width: 60px;
+  height: 36px;
+  width: 36px;
   fill: #106878;
-  transition: 150ms;
-  transition-timing-function: ease-in-out;
 }
 
 svg:hover {
   fill: #3a8;
 }
 
-.svg-link-wrapper {
-  display: inline;
-  padding: 8px 28px;
-}
-
 .face {
   width: 100%;
-  max-width: 426px;
+  max-width: 320px;
   max-height: 100%;
-  margin: 48px auto 0 auto;
+  margin: 12px auto 0 auto;
   outline: 1px solid #aababa;
-  transition-property: filter;
-  transition-duration: 140ms;
-  transition-timing-function: ease-in-out;
-}
-
-.face:hover {
-  filter: sepia(16%) saturate(85%) hue-rotate(80deg);
-}
-
-@media (max-width: 520px) {
-  .name {
-    font-size: 45px;
-    height: 61px;
-    max-width: 320px;
-    padding: 9px 0 0 0;
-  }
 }
 
 @media (max-width: 410px) {
+  /* scale down */
+
+  main {
+    font-size: 14px;
+    width: 213px;
+    margin: 12px auto;
+  }
+
+  .message {
+    line-height: 12px;
+  }
+
   .name {
     font-size: 30px;
     height: 41px;
@@ -121,10 +124,21 @@ svg:hover {
     padding: 6px 0 0 0;
   }
 
-  .button {
-    height: 30px;
-    width: 130px;
-    font-size: 22px;
-    line-height: 31px;
+  .svg-bar {
+    width: 244px;
+    margin: 16px 18px;
+  }
+  
+  .svg-link-wrapper {
+    padding: 0 17px;
+  }
+  
+  svg {
+    height: 24px;
+    width: 24px;
+  }
+
+  .face {
+    max-width: 213px;
   }
 }
