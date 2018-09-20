@@ -48,6 +48,10 @@ main {
   color: #e8e8e8;
   cursor: default;
 }
+.name::selection {
+  background: #ddd;
+  color: #000;
+}
 
 .title {
   margin: 48px 0 16px 0;
