@@ -1,6 +1,11 @@
 @font-face {
-  font-family: "Roboto";
+  font-family: "RobotoLight";
   src: url("./Roboto-Light.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./Roboto-Regular.ttf");
 }
 
 @font-face {
@@ -34,7 +39,7 @@ body a:hover::selection {
 
 main {
   font-size: 18px;
-  font-family: "Roboto", Arial;
+  font-family: "RobotoLight", Arial;
   width: 320px;
   margin: 48px auto;
   transition: 150ms;
@@ -77,6 +82,15 @@ main {
 
 .inquires {
   display: inline;
+}
+
+.message .the-latest-header {
+  font-family: "Roboto", Arial;
+  margin: 0;
+}
+
+.message .the-latest {
+  margin: 0;
 }
 
 .obfuscator {
