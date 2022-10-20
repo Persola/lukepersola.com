@@ -65,11 +65,13 @@ main {
 
 .title {
   margin: 48px 0 16px 0;
+  text-align: center;
+  font-size: 22px;
   font-family: "Roboto", Arial;
 }
 
 .message {
-  margin: 24px 0;
+  margin: 10px 0;
 }
 
 .message div {
